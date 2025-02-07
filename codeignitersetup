@@ -1,0 +1,8 @@
+#Codeigniter setup
+
+composer create-project codeigniter4/appstarter hrms
+cd hrms
+php spark serve
+
+#Set base URL in .env:
+app.baseURL = 'http://localhost:8080'
